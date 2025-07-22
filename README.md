@@ -1,15 +1,23 @@
 # 🎮 안녕하세요! Welcome to My World! 🎮
 
+<div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8;">
+
 ## 👨‍💻 소개
 안녕하세요! 저는 **gitnewbb**입니다! 🍄
+
+<div style="margin: 20px 0; padding: 15px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 10px; border-left: 5px solid #FF0000;">
 
 > 🎯 **메인 도메인:** 통신 & 백엔드 개발  
 > 🌟 **목표:** 풀스택은 아니지만 필요에 따라 조금씩 성장하는 개발자  
 > 🚀 **관심 분야:** 백엔드 개발에 집중!
 
+</div>
+
 ---
 
 ## 🏆 파워업 역량 단상 (Power-Up Skills)
+
+<div style="margin: 30px 0;">
 
 <div align="center">
   <table>
@@ -51,7 +59,9 @@
   </table>
 </div>
 
----
+</div>
+
+<div style="margin: 40px 0;">
 
 ## 🛠️ 전체 파워업 아이템 (All Power-Ups)
 
@@ -78,7 +88,9 @@
 ### 📜 특별 파워업 (자격증)
 ![SQLD](https://img.shields.io/badge/SQLD-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
----
+</div>
+
+<div style="margin: 40px 0;">
 
 ## 🚀 미션 & 퀘스트 (Projects)
 
@@ -86,6 +98,10 @@
 - **[🎓 졸업 연구]** - AI를 활용한 MEC와 서버 사이의 연산 offloading (깃 업로드 예정)
 - **[🤖 AIBE1 프로젝트]** - 프로젝트 수요층에 대한 매칭 및 프로젝트관리 시스템 ![Pop!](https://github.com/gitnewbb/AIBE1-Project2-Team01)
 - **[📡 통신 소켓 구현]** - TCP, UDP를 RDT 기반으로 구현 및 전송 프로토콜 성능 확인
+
+</div>
+
+<div style="margin: 40px 0;">
 
 <!-- ## GitHub 통계
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical) -->
@@ -95,11 +111,16 @@
 ## 📞 연락처 (Contact Info)
 - 📧 **이메일:** tal6314@gmail.com
 
+</div>
+
+<div style="margin: 40px 0;">
+
 ## 🎮 방문자 통계
 ![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=brightgreen)
 
----
+</div>
 
+<div style="margin: 40px 0;">
 
 ## 🏰 성 & 배포 프로젝트 (Castle & Deployed Projects)
 
@@ -123,3 +144,5 @@
 ---
 
 ⭐ **It's-a me, Mario! Give me a star!** ⭐
+
+</div>
