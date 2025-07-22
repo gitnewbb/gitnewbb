@@ -3,59 +3,41 @@
 <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8;">
 
 <!-- 마리오 벽돌 깨기 애니메이션 -->
-<div style="text-align: center; margin: 20px 0; padding: 20px; background: linear-gradient(135deg, #87CEEB 0%, #98FB98 100%); border-radius: 15px; border: 3px solid #8B4513;">
-  <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 15px;">
-    <div style="animation: marioJump 2s infinite; font-size: 30px;">🍄</div>
-    <div style="font-size: 24px; font-weight: bold; color: #8B4513;">벽돌을 깨는 중...</div>
+<div style="text-align: center; margin: 20px 0; padding: 20px; background: linear-gradient(135deg, #87CEEB 0%, #98FB98 100%); border-radius: 15px; border: 3px solid #8B4513; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  
+  <!-- 마리오와 벽돌 -->
+  <div style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-bottom: 20px;">
+    <div style="font-size: 35px; color: #FF0000;">🍄</div>
+    <div style="font-size: 26px; font-weight: bold; color: #8B4513; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">벽돌을 깨는 중...</div>
+    <div style="font-size: 35px; color: #8B4513;">🧱</div>
   </div>
   
-  <div style="display: flex; justify-content: center; gap: 5px; font-size: 28px; font-weight: bold;">
-    <span style="animation: letterAppear 0.5s 0.5s both; color: #FFD700;">g</span>
-    <span style="animation: letterAppear 0.5s 1s both; color: #FFD700;">i</span>
-    <span style="animation: letterAppear 0.5s 1.5s both; color: #FFD700;">t</span>
-    <span style="animation: letterAppear 0.5s 2s both; color: #FFD700;">n</span>
-    <span style="animation: letterAppear 0.5s 2.5s both; color: #FFD700;">e</span>
-    <span style="animation: letterAppear 0.5s 3s both; color: #FFD700;">w</span>
-    <span style="animation: letterAppear 0.5s 3.5s both; color: #FFD700;">b</span>
-    <span style="animation: letterAppear 0.5s 4s both; color: #FFD700;">b</span>
+  <!-- gitnewbb 글자들 -->
+  <div style="display: flex; justify-content: center; gap: 8px; font-size: 32px; font-weight: bold; margin: 20px 0;">
+    <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">g</span>
+    <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">i</span>
+    <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">t</span>
+    <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">n</span>
+    <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">e</span>
+    <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">w</span>
+    <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">b</span>
+    <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">b</span>
   </div>
   
-  <div style="margin-top: 10px; font-size: 16px; color: #8B4513;">
-    <span style="animation: coinSpin 0.5s 4.5s infinite;">🪙</span>
-    <span style="animation: coinSpin 0.5s 4.7s infinite;">🪙</span>
-    <span style="animation: coinSpin 0.5s 4.9s infinite;">🪙</span>
+  <!-- 코인들 -->
+  <div style="margin-top: 15px; font-size: 20px;">
+    <span style="color: #FFD700; margin: 0 5px;">🪙</span>
+    <span style="color: #FFD700; margin: 0 5px;">🪙</span>
+    <span style="color: #FFD700; margin: 0 5px;">🪙</span>
+    <span style="color: #FFD700; margin: 0 5px;">🪙</span>
+    <span style="color: #FFD700; margin: 0 5px;">🪙</span>
+  </div>
+  
+  <!-- 완성 메시지 -->
+  <div style="margin-top: 15px; font-size: 18px; color: #8B4513; font-weight: bold;">
+    🎉 벽돌 깨기 완료! 🎉
   </div>
 </div>
-
-<style>
-@keyframes marioJump {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-}
-
-@keyframes letterAppear {
-  0% { 
-    opacity: 0; 
-    transform: translateY(-20px) scale(0.5); 
-    color: #FFD700;
-  }
-  50% { 
-    opacity: 0.5; 
-    transform: translateY(-10px) scale(0.8); 
-    color: #FFA500;
-  }
-  100% { 
-    opacity: 1; 
-    transform: translateY(0px) scale(1); 
-    color: #FFD700;
-  }
-}
-
-@keyframes coinSpin {
-  0% { transform: rotateY(0deg); }
-  100% { transform: rotateY(360deg); }
-}
-</style>
 
 ## 👨‍💻 소개
 안녕하세요! 저는 **gitnewbb**입니다! 🍄
