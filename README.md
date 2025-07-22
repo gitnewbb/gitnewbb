@@ -2,20 +2,16 @@
 
 <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8;">
 
-<!-- 마리오 벽돌 깨기 애니메이션 -->
 <div style="text-align: center; margin: 20px 0; padding: 20px; background: linear-gradient(135deg, #87CEEB 0%, #98FB98 100%); border-radius: 15px; border: 3px solid #8B4513; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   
-  <!-- 마리오 벽돌 깨기 시나리오 -->
   <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
     
-    <!-- 첫 번째 줄: 마리오 + 텍스트 + 벽돌 -->
     <div style="display: flex; justify-content: center; align-items: center; gap: 15px; font-size: 24px;">
       <span style="color: #FF0000;">🍄</span>
       <span style="font-weight: bold; color: #8B4513;">벽돌을 깨는 중...</span>
       <span style="color: #8B4513;">🧱</span>
     </div>
     
-    <!-- 두 번째 줄: gitnewbb 글자들 -->
     <div style="display: flex; justify-content: center; gap: 8px; font-size: 28px; font-weight: bold; margin: 10px 0;">
       <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">g</span>
       <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">i</span>
@@ -27,7 +23,6 @@
       <span style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">b</span>
     </div>
     
-    <!-- 세 번째 줄: 코인들 -->
     <div style="display: flex; justify-content: center; gap: 5px; font-size: 18px;">
       <span style="color: #FFD700;">🪙</span>
       <span style="color: #FFD700;">🪙</span>
@@ -36,7 +31,6 @@
       <span style="color: #FFD700;">🪙</span>
     </div>
     
-    <!-- 네 번째 줄: 완성 메시지 -->
     <div style="font-size: 16px; color: #8B4513; font-weight: bold; margin-top: 5px;">
       🎉 벽돌 깨기 완료! 🎉
     </div>
