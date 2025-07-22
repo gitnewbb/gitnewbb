@@ -2,6 +2,61 @@
 
 <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8;">
 
+<!-- 마리오 벽돌 깨기 애니메이션 -->
+<div style="text-align: center; margin: 20px 0; padding: 20px; background: linear-gradient(135deg, #87CEEB 0%, #98FB98 100%); border-radius: 15px; border: 3px solid #8B4513;">
+  <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 15px;">
+    <div style="animation: marioJump 2s infinite; font-size: 30px;">🍄</div>
+    <div style="font-size: 24px; font-weight: bold; color: #8B4513;">벽돌을 깨는 중...</div>
+  </div>
+  
+  <div style="display: flex; justify-content: center; gap: 5px; font-size: 28px; font-weight: bold;">
+    <span style="animation: letterAppear 0.5s 0.5s both; color: #FFD700;">g</span>
+    <span style="animation: letterAppear 0.5s 1s both; color: #FFD700;">i</span>
+    <span style="animation: letterAppear 0.5s 1.5s both; color: #FFD700;">t</span>
+    <span style="animation: letterAppear 0.5s 2s both; color: #FFD700;">n</span>
+    <span style="animation: letterAppear 0.5s 2.5s both; color: #FFD700;">e</span>
+    <span style="animation: letterAppear 0.5s 3s both; color: #FFD700;">w</span>
+    <span style="animation: letterAppear 0.5s 3.5s both; color: #FFD700;">b</span>
+    <span style="animation: letterAppear 0.5s 4s both; color: #FFD700;">b</span>
+  </div>
+  
+  <div style="margin-top: 10px; font-size: 16px; color: #8B4513;">
+    <span style="animation: coinSpin 0.5s 4.5s infinite;">🪙</span>
+    <span style="animation: coinSpin 0.5s 4.7s infinite;">🪙</span>
+    <span style="animation: coinSpin 0.5s 4.9s infinite;">🪙</span>
+  </div>
+</div>
+
+<style>
+@keyframes marioJump {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes letterAppear {
+  0% { 
+    opacity: 0; 
+    transform: translateY(-20px) scale(0.5); 
+    color: #FFD700;
+  }
+  50% { 
+    opacity: 0.5; 
+    transform: translateY(-10px) scale(0.8); 
+    color: #FFA500;
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateY(0px) scale(1); 
+    color: #FFD700;
+  }
+}
+
+@keyframes coinSpin {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+</style>
+
 ## 👨‍💻 소개
 안녕하세요! 저는 **gitnewbb**입니다! 🍄
 
@@ -95,7 +150,7 @@
 ## 🚀 미션 & 퀘스트 (Projects)
 
 ### 🏆 주요 미션
-- **[🎓 졸업 연구]** - AI를 활용한 MEC와 서버 사이의 연산 offloading (깃 업로드 예정)
+- **[졸업 연구]** - AI를 활용한 MEC와 서버 사이의 연산 offloading (깃 업로드 예정)
 - **[🤖 AIBE1 프로젝트]** - 프로젝트 수요층에 대한 매칭 및 프로젝트관리 시스템 ![Pop!](https://github.com/gitnewbb/AIBE1-Project2-Team01)
 - **[📡 통신 소켓 구현]** - TCP, UDP를 RDT 기반으로 구현 및 전송 프로토콜 성능 확인
 
